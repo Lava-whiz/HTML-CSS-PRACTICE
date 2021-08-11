@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment2</title>
+</head>
+<body>
+  <p>Table with name, subject, city, marks columns and 3 rows of data.</p>
+  <table cellspacing="0" cellpadding="10px">
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>City</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Rajini</td>
+        <td>Maths</td>
+        <td>Chennai</td>
+        <td>90</td>
+      </tr>
+
+      <tr>
+        <td>Vijay</td>
+        <td>Social</td>
+        <td>Madurai</td>
+        <td>83</td>
+      </tr>
+
+      <tr>
+        <td>Senthil</td>
+        <td>English</td>
+        <td>Vellore</td>
+        <td>67</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  
+  <p>Form for Name, DOB, City fields with validation.</p>
+  <form>
+    Name: <input type="text" placeholder="Enter name" required>
+    <br>
+    <br>
+    DOB: <input type="date" required>
+    <br>
+    <br>
+    City: <select required>
+      <option value="">Select City</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Hyderabad">Hyderabad</option>
+    </select>
+    <br><br>
+    <!----Button added to show the validation part(required)-->
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+  
+
+</html>
